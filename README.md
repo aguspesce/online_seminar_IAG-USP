@@ -18,12 +18,9 @@ produced by the geodynamical modelling software Mandyoc, developed by Victor Sac
 
 ## How to run the notebooks?
 
-For run the notebooks, it is necessary to install a Python distribution.
-One of the best options is to install [Anaconda](https://www.anaconda.com/).
+To run the notebooks, you need to install [Anaconda](https://www.anaconda.com/).
 
-### Using Anaconda:
-
-Yo can clone or download the repository.
+You can clone or download the repository.
 
 To clone it using `git`:
 ```
@@ -31,16 +28,38 @@ git clone https://github.com/aguspesce/online_seminar.git
 ```
 
 Or you can download it as a `zip` through [this link]
+(https://github.com/aguspesce/online_seminar/archive/master.zip)
 
-Then, install all the dependencies through the conda package manager:
+Then, create an environment with all the dependencies through the conda package manager:
 ```
 conda env create -f environment.yml
 ```
 
-And then activate the environment:
+Then, activate the environment:
 ```
 conda activate online-seminar
 ```
 
-Finally, run `jupyter notebook` or `jupyter-lab`.
+Finally you can run an instance of `Jupyter Notebook` with:
+```
+jupyter-notebook
+```
+or
+```
+jupyter-lab
+```
+This will open a window in our browser, through which you can open and run the
+notebooks.
+
+## License
+
+Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
+
+This work is licensed under a [Creative Commons Attribution 4.0 International
+
+License][cc-by].
+
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
 
