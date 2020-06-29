@@ -1,54 +1,52 @@
-# Online seminar of the laboratorio de tectonofisica from IAG-USP
+# How to manage multi-dimensional arrays?
 
-### Title: How to manage multi-dimensional arrays?
+> Online seminar of the laboratorio de tectonofisica from IAG-USP
 
-__Summary__
+## Summary
 
-Xarray is an open source project and Python package that makes working with labelled
-multi-dimensional arrays simple, efficient and with fewer errors.
-Xarray is inspired by and borrows heavily from pandas.
-It is particularly tailored to work with netCDF files and integrates tightly with Dask
+[Xarray](https://xarray.pydata.org/en/stable/) is an open source project and
+Python package that makes working with labelled multi-dimensional arrays
+simple, efficient and with fewer errors. Xarray is inspired by and borrows
+heavily from [pandas](https://pandas.pydata.org/). It is particularly tailored
+to work with netCDF files and integrates tightly with [Dask](https://dask.org/)
 for parallel computing.
 
-On this opportunity, I want to convey to you why I consider Xarray a very powerful tool
-and show you some functionalities that I frequently use on my research.
-I will also show some examples on how I use Xarray for manage, store and visualize data
-produced by the geodynamical modelling software Mandyoc, developed by Victor Sacek
-(USP).
+On this opportunity, I want to convey to you why I consider Xarray a very
+powerful tool and show you some functionalities that I frequently use on my
+research. I will also show some examples on how I use Xarray for manage, store
+and visualize data produced by the geodynamical modelling software
+[Mandyoc](https://bitbucket.org/victorsacek/mandyoc/src/master/), developed by
+Victor Sacek (USP).
 
 ## How to run the notebooks?
 
 To run the notebooks, you need to install [Anaconda](https://www.anaconda.com/).
 
-You can clone or download the repository.
-
-To clone it using `git`:
+Download the notebooks by cloning this repository through `git`:
 ```
-git clone https://github.com/aguspesce/online_seminar.git
+git clone https://github.com/aguspesce/online_seminar
 ```
 
-Or you can download it as a `zip` through [this link]
-(https://github.com/aguspesce/online_seminar/archive/master.zip)
+Alternatively, you can download it as a `zip` through
+[this link](https://github.com/aguspesce/online_seminar/archive/master.zip)
 
-Then, create an environment with all the dependencies through the conda package manager:
+Then, create a conda environment that includes all the needed dependencies
+through the `conda` package manager:
 ```
 conda env create -f environment.yml
 ```
 
-Then, activate the environment:
+And activate the environment:
 ```
 conda activate online-seminar
 ```
 
-Finally you can run an instance of `Jupyter Notebook` with:
+Finally you can run an instance of Jupyter Notebook with:
 ```
 jupyter-notebook
 ```
-or
-```
-jupyter-lab
-```
-This will open a window in our browser, through which you can open and run the
+
+This will open a new tab in your browser, through which you can open and run the
 notebooks.
 
 ## License
