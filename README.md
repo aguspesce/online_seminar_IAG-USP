@@ -1,5 +1,7 @@
 # How to manage multi-dimensional arrays?
 
+by [Agustina Pesce](https://github.com/aguspesce)
+
 > Online seminar of the laboratorio de tectonofisica from IAG-USP
 
 ## Summary
